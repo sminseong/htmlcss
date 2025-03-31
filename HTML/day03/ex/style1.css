@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+/* 축방향
+justify-content: 주축 (기본값: 가로)
+align-items: 교차축 (기본값: 세로)
+ 
+flex-direction을 사용하여 주축과 교차축을 바꿀 수 있다.
+
+1. 공간맞추기: display: flex
+2. 주축 정렬하기: justify-content
+3. 교차축 정렬하기: align-items
+========================================================
+이동, 고정 시키는 방법
+
+*/
+body {
+    display: flex;
+    /* 주축정렬 */
+    /* justify-content: space-around; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#second {
+    background-color: bisque;
+}
